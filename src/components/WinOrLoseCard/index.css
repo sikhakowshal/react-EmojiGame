@@ -1,0 +1,102 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  border: 2px solid #ffffff33;
+  border-radius: 20px;
+  background-color: #ffffff33;
+  width: 80%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .result-image {
+    height: 200px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .result-image {
+    order: 1;
+  }
+}
+
+.card-content {
+  text-align: center;
+}
+
+.greeting {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .greeting {
+    font-size: 45px;
+  }
+}
+
+.best-score-title {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .best-score-title {
+    font-size: 25px;
+  }
+}
+
+.score {
+  color: #6a59ff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .score {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+}
+
+.play-again-button {
+  color: #323f4b;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border: none;
+  border-radius: 12px;
+  background-color: #ffce27;
+  padding: 12px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .play-again-button {
+    padding: 17px;
+    font-size: 18px;
+  }
+}
