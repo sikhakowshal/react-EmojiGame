@@ -29,6 +29,8 @@ class EmojiGame extends Component {
 
     if (score > prevTopScore) {
       topScore = score
+    } else {
+      topScore = prevTopScore
     }
 
     this.setState({
